@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    background-color:#212529;
+    overflow: auto;
+    padding:25px 4rem;
+    
+
+}
+#header .logo{
+    float:left;
+
+}
+#header .navbar{
+    float:right;
+}
+.logo a{
+    color:#FFC800;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.navbar a{
+    color: #FFFFFF;
+    padding: 8px;
+}
+#first {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 13rem 0;
+}
+.find-text h3{
+color:#FFFFFF;
+font-size: 36px;
+margin:0px 0px 32px;
+}
+.find-text h1{
+    color:#FFFFFF;
+   font-size: 72px;
+   margin:0px 0px 64px;
+}
+.find-text a {
+    color: #FFF;
+    background-color: #FFC800;
+    font-size:20px;
+    padding: 2rem ;
+    border-color: #FFC800;
+    border-radius: 5px;
+    width:20%;
+    border:none;
+    outline:none;
+}
+#second{
+    padding:6rem 0rem;
+    color:#212529;
+    text-align: center;
+}
+#second h2{
+    color:#212529;
+    font-size: 40px;
+    margin:0px 0px 16px;
+}
+#second h3{
+    color:#6C757D;
+    font-size: 20px;
+    margin:0px 0px 64px;
+}
+
