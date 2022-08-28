@@ -58,19 +58,86 @@ margin:0px 0px 32px;
     border:none;
     outline:none;
 }
-#second{
-    padding:6rem 0rem;
-    color:#212529;
+
+#second .title {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#second .title h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+#second .title em {
+    font-size: 20px;
+    color:#6C757D;
+}
+
+#second .service {
+    float: left;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#second .service .service-icon {
+    background-color: #ffc800;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+#second .service .service-icon i {
+    font-size: 54px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#second .service .service-title {
+    text-align: center;
+    font-size: 25px;
+    margin: 30px 0;
+}
+
+#second .service .service-desc {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+    color:#6C757D;;
+}
+
+.portfolio {
+ 
     text-align: center;
 }
-#second h2{
-    color:#212529;
-    font-size: 40px;
-    margin:0px 0px 16px;
+
+ .title h1 {
+    margin-bottom: 20px;
+    font-size: 33px;
 }
-#second h3{
-    color:#6C757D;
+.title p{
     font-size: 20px;
-    margin:0px 0px 64px;
 }
+ .portfolio-image img {
+    margin-top: 33px;
+    width: 100%;
+}
+
+.portfolio-cards {
+    float: left;
+    margin-left: 66px;
+    width: 28%;
+    margin-bottom: 50px;
+}
+
+
+
 
